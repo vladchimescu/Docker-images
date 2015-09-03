@@ -1,11 +1,10 @@
 /*
-    Based on Base16 Apathy Light by  Jannik Siebert (https://github.com/janniks)
+    Adapted for Bioconductor workflows by Vladislav Kim <vkim@embl.de>
 
+    Based on Base16 Apathy Light by  Jannik Siebert (https://github.com/janniks)
     CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
     CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-    Adapted for Bioconductor workflows by Vladislav Kim <vkim@embl.de>
 
 */
 
@@ -55,6 +54,7 @@ div.output_area pre {font-weight: normal; max-width: 110ex; color: #184E45;}
 div.output_subarea {
     font-weight: normal;
     max-width: 110ex;
+    max-height: 100ex;
     color: #184E45;
     padding: .4em;
     /*
