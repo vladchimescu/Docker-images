@@ -66,7 +66,10 @@
 
 require(['base/js/namespace', 'base/js/events'], function(IPython, events) {
     events.on('app_initialized.NotebookApp', function(){
+	// IPython.load_extensions("runtools/main");
         IPython.load_extensions("breakpoints");
+	IPython.load_extensions("hide_input");
+	IPython.load_extensions("check_hidden");
     })
 });
 
