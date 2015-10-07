@@ -32,3 +32,6 @@ RUN rm /root/.ipython/profile_nbserver/static/custom/custom.css
 COPY ./custom.css /root/.ipython/profile_nbserver/static/custom/
 COPY ./breakpoints.js /root/.ipython/nbextensions/
 COPY ./custom.js /root/.ipython/profile_nbserver/static/custom/
+COPY ./hide_input.js /root/.ipython/nbextensions/
+COPY ./check_hidden.js /root/.ipython/nbextensions/
+
